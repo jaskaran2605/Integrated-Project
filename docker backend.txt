@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+import cgi
+import subprocess
+import os
+import html
+
+print("Access-Control-Allow-Origin: *")
+print("Access-Control-Allow-Methods: POST, GET, OPTIONS")
+print("Content-Type: text/html\n")
+print()
+
+form = cgi.FieldStorage()
+i = form.getvalue("q")
+print(i)
+if i == "1" :
+    output = subprocess.getoutput("sudo docker images")
+    print("<pre>" + output + "</pre>")
+
+elif i=="2":
+    output=subprocess.getoutput("sudo docker pull centos:7")
+    print("<pre>" + output + "</pre>")
+elif i=="3":
+    output=subprocess.getoutput("sudo docker pull ubuntu")
+    print("<pre>" + output + "</pre>")
+elif i=="4":
+    output=subprocess.getoutput(" sudo man docker")
+    print("<pre>" + output + "</pre>")
+elif i=="5":
+    output=subprocess.getstatusoutput("sudo docker ps")
+    print("<pre>" + output + "</pre>")
+elif i=="6":
+    output=subprocess.getoutput("sudo docker ps -a")
+    print("<pre>" + output + "</pre>")
+elif i=="7":
+    output=subprocess.getoutput("date")
+    print("<pre>" + output + "</pre>")
+elif i=="8":
+    output=subprocess.getoutput("cal")
+    print("<pre>" + output + "</pre>")
+elif i=="9":
+    output=subprocess.getoutput("ifconfig")
+    print("<pre>" + output + "</pre>")

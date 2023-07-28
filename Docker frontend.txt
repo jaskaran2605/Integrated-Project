@@ -1,0 +1,49 @@
+<body bgcolor="gray">
+<section class="bg-gradient pt-5 pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-row align-items-center justify-content-between">
+                
+                <p><h3>Team Decoder</h3></p>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-8 mx-auto text-center">
+                <h1>Welcome 🎉🚀</h1>
+
+                <p class="lead mb-5">
+                    Believe In Yourself 🌟
+                </p>
+                    <div class="container">
+                        <form action="http://13.232.187.0/cgi-bin/jas.py" method="get" target="_blank" id="earch-form">
+                          <input name="q" type="text" placeholder="   Search..." autocomplete="off" autofocus class="xyz">
+                          <br> 
+                          <center><button>🔍 Search</button></center>           
+                        </form> 
+                        
+                        <p class="info"></p>
+                    </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-9 mx-auto">
+                <div class="code-window">
+                    <div class="dots">
+                        <div class="red"></div>
+                        <div class="orange"></div>
+                        <div class="green"></div>
+                    </div>
+                    <pre class="language-javascript line-numbers"><code class="language-javascript">
+🪄"𝑾𝒆 𝒂𝒓𝒆 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓𝒔, 𝑾𝒆 𝒘𝒊𝒍𝒍 𝒃𝒆 𝑻𝑯𝑬 𝑪𝑹𝑬𝑨𝑻𝑶𝑹𝑺"🎓🔍
+
+1-show docker images
+2 pull centos image 
+3-pull ubuntu image
+4-docker manual
+5-show running containers
+6-show all containers
+7-Date
+8-Calender
+9-IP address
+</body>
+</html>
